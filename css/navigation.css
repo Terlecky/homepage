@@ -1,0 +1,23 @@
+.navigation__link {
+    color: #000000;
+    text-decoration: none;
+}
+
+.navigation__link:hover {
+    border-bottom: white solid 5px;
+}
+
+.navigation__link:active {
+    color: white;
+}
+
+.body__navigation {
+    display: flex;
+    justify-content: space-around;
+    font-size: 35px;
+    background-color: silver;
+    width: auto;
+    padding: 25px;
+    margin: 15px;
+    border: 1px solid black
+}
