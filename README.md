@@ -2,11 +2,10 @@
 
 ## Demo
 
-https://terlecky.github.io/currency-exchange/
 
 ## Page previev
 
-![DemoGIF](https://i.postimg.cc/jqnLcdPZ/currency-exchange.gif)
+
 
 ## Description
 This is my first personal homepage.
