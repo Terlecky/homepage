@@ -6,7 +6,7 @@ https://terlecky.github.io/homepage/
 
 ## Page previev
 
-
+![DemoGIF](https://i.postimg.cc/Y9BkqqWb/homepage-git.gif)
 
 ## Description
 This is my first personal homepage.
