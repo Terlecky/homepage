@@ -11,12 +11,11 @@ const changeBackgroundColor = () => {
   else themeName.innerText = "ciemny";
 };
 
-console.log(changeBackgroundColor())
 const init = (body) => {
   const button = document.querySelector(".body__button");
 
   button.addEventListener("click", () => {
     body.classList.toggle("dark");
   });
+  init(body);
 };
-init(body);
