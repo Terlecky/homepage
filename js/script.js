@@ -11,6 +11,7 @@ const changeBackgroundColor = () => {
   else themeName.innerText = "ciemny";
 };
 
+console.log(changeBackgroundColor())
 const init = (body) => {
   const button = document.querySelector(".body__button");
 
@@ -18,4 +19,4 @@ const init = (body) => {
     body.classList.toggle("dark");
   });
 };
-init();
+init(body);
