@@ -1,15 +1,21 @@
 console.log("Miłego sprawdzania mojej pracy domowej :)");
 
 
-let button = document.querySelector(".body__button");
-let body = document.querySelector(".body");
-let themeName = document.querySelector(".themeName");
 
-button.addEventListener("click", () => {
-  body.classList.toggle("dark");
+const changeBackgroundColor = () => {
+  const body = document.querySelector(".body");
+  const themeName = document.querySelector(".themeName");
 
-  if (body.classList.contains("dark"))
-    themeName.innerText = "jasny"
-  else
-    themeName.innerText = "ciemny"
-})
+  if (body.classList.contains("dark")) 
+      themeName.innerText = "jasny";
+  else themeName.innerText = "ciemny";
+};
+
+const init = (body) => {
+  const button = document.querySelector(".body__button");
+
+  button.addEventListener("click", () => {
+    body.classList.toggle("dark");
+  });
+};
+init();
