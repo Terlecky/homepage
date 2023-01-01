@@ -1,11 +1,7 @@
 console.log("Miłego sprawdzania mojej pracy domowej :)");
 
-
-
-
 const changeNameOfButton = (body) => {
   const themeName = document.querySelector(".themeName");
-  
 
   if (body.classList.contains("dark")) 
       themeName.innerText = "jasny";
