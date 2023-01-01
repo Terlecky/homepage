@@ -1,4 +1,5 @@
-console.log("Miłego sprawdzania mojej pracy domowej :)");
+{
+  console.log("Miłego sprawdzania mojej pracy domowej :)");
 
 const changeNameOfButton = (body) => {
   const themeName = document.querySelector(".themeName");
@@ -19,3 +20,4 @@ const changeBackgroundColor = () => {
 
 };
 changeBackgroundColor();
+}
