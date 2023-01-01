@@ -14,6 +14,7 @@
 .body__navigation {
     display: flex;
     justify-content: space-around;
+    flex-direction: row;
     font-size: 35px;
     background-color: silver;
     max-width: auto;
@@ -21,3 +22,10 @@
     margin: 15px;
     border: 1px solid black
 }
+
+@media (max-width: 600px) {
+    .body__navigation {
+      flex-direction: row;
+      font-size: 20px;
+    }
+  }
