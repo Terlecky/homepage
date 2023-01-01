@@ -69,8 +69,8 @@ color: rgb(0, 0, 0);
 }
 
 .dark {
-    color: aliceblue;
-    background-color: #4f4f4f;
+    color: rgb(0, 0, 0);
+    background-color: #777474;
 }
 
 .section__list {

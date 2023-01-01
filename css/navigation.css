@@ -16,7 +16,7 @@
     justify-content: space-around;
     font-size: 35px;
     background-color: silver;
-    width: auto;
+    max-width: auto;
     padding: 25px;
     margin: 15px;
     border: 1px solid black
