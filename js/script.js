@@ -16,6 +16,7 @@ const init = (body) => {
 
   button.addEventListener("click", () => {
     body.classList.toggle("dark");
+    changeBackgroundColor();
   });
 
 };
